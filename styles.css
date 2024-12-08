@@ -1,0 +1,26 @@
+/* styles.css */
+
+/* Color and alignment for heading */
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* Align images to centre and set size */
+img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Homepage - Styles for list of recipes */
+
+.home-list a {
+    text-decoration: none;
+}
+
+.home-list {
+    list-style-type: none;
+}
