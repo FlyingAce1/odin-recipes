@@ -4,19 +4,20 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* Color and alignment for heading */
-h1 {
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-
 /* Align images to centre and set size */
 img {
     width: 500px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: auto;
+}
+
+/* Home Page Images */
+.homeimg {
+    display: inline-block;
+    margin-right: 10px;
+    width: auto;
+    height: 300px;
 }
 
 /* Homepage - Styles for list of recipes */
@@ -27,4 +28,11 @@ img {
     padding: 0;
     margin: 0;
     list-style-type: none;
+}
+
+/* Color and alignment for heading */
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
 }
