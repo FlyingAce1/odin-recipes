@@ -14,8 +14,7 @@ img {
 
 /* Home Page Images */
 .homeimg {
-    display: inline-block;
-    margin-right: 10px;
+    display: block;
     width: auto;
     height: 300px;
 }
@@ -35,4 +34,28 @@ h1 {
     background-color: black;
     color: white;
     text-align: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.text-overlay a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.text-overlay a:hover {
+    text-decoration: underline;
 }
