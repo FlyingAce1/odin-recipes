@@ -1,5 +1,9 @@
 /* styles.css */
 
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 /* Color and alignment for heading */
 h1 {
     background-color: black;
@@ -17,10 +21,10 @@ img {
 
 /* Homepage - Styles for list of recipes */
 
-.home-list a {
-    text-decoration: none;
-}
-
 .home-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
     list-style-type: none;
 }
